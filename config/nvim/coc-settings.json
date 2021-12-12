@@ -1,0 +1,28 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "python",
+    "golang",
+    "json",
+    "yaml",
+    "css"
+  ],
+
+  "coc.preferences.formatOnType": true,
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+
+  "tsserver.formatOnType": true,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "languageserver": {
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod"],
+      "filetypes": ["go"]
+    }
+  }
+}
