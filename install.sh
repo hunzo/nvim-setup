@@ -12,7 +12,7 @@ sudo ln /usr/local/go/bin/go /usr/local/bin/go
 #add in .bashrc or .bash_profile
 # export PATH=$PATH:$HOME/go/bin
  
-echo 'export PATH=$PATH:$HOME/go/bin' >> ~/.bashrc
+echo 'export PATH=$PATH:$HOME/go/bin:$HOME/.local/bin' >> ~/.bashrc
 echo 'set -o vi' >> ~/.bashrc
 
 # Nvm

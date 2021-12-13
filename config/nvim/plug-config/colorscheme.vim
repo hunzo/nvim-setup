@@ -4,4 +4,4 @@ set cursorline
 set termguicolors
 " colorscheme PaperColor
 " colorscheme gruvbox
-colorscheme solarized8
+colorscheme solarized8_high
