@@ -1,8 +1,7 @@
 # My Neovim setup for WSL
 ## exec script
 ```bash
-./00-install-software.sh
-./01-setup-directory.sh
+./install.sh
 ```
 # Install Manual
 ## Update Ubuntu
