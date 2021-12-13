@@ -20,6 +20,8 @@ autocmd FileType typescriptreact,typescript,javascriptreact,javascript,yaml,json
 " setlocal cindent
 " filetype indent off
 
+" Disable Overwrite theme to Tmux
+let g:airline#extensions#tmuxline#enabled = 0
 " disable bell
 set noerrorbells visualbell t_vb=
 
