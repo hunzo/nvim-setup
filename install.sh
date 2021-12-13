@@ -15,6 +15,12 @@ sudo ln /usr/local/go/bin/go /usr/local/bin/go
 echo 'export PATH=$PATH:$HOME/go/bin:$HOME/.local/bin' >> ~/.bashrc
 echo 'set -o vi' >> ~/.bashrc
 
+echo "show_git_branch() {
+     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
+}" >> ~/.bashrc
+
+echo 'export PS1="\u@\h \[\e[32m\]\w \[\e[91m\]\$(show_git_branch)\[\e[00m\] $ "' >> ~/.bashrc
+
 # Nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
 
