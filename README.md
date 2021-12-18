@@ -6,7 +6,7 @@
 # Install Manual
 ## Update Ubuntu
 ```bash
-sudo apt update -y && sudo apy upgrade -y
+sudo apt update -y && sudo apt upgrade -y
 sudo apt install unzip
 ```
 ## Golang
