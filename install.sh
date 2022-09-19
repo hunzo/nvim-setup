@@ -4,8 +4,8 @@ sudo apt update -y && sudo apt upgrade -y
 sudo apt install unzip
 
 #Golang
-curl -OL https://golang.org/dl/go1.17.5.linux-amd64.tar.gz
-tar xfz go1.17.5.linux-amd64.tar.gz
+curl -OL https://golang.org/dl/go1.19.1.linux-amd64.tar.gz
+tar xfz go1.19.1.linux-amd64.tar.gz
 sudo mv go /usr/local
 sudo ln /usr/local/go/bin/go /usr/local/bin/go
 
@@ -22,7 +22,7 @@ echo "show_git_branch() {
 echo 'export PS1="\u@\h \[\e[32m\]\w \[\e[91m\]\$(show_git_branch)\[\e[00m\] $ "' >> ~/.bashrc
 
 # Nvm
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
 . ~/.nvm/nvm.sh
 . ~/.bashrc
