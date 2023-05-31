@@ -11,8 +11,8 @@ sudo apt install unzip
 ```
 ## Golang
 ```bash
-curl -OL https://golang.org/dl/go1.17.5.linux-amd64.tar.gz
-tar xfz go1.17.5.linux-amd64.tar.gz
+curl -OL https://golang.org/dl/go1.20.4.linux-amd64.tar.gz
+tar xfz go1.20.4.linux-amd64.tar.gz
 sudo mv go /usr/local
 sudo ln /usr/local/go/bin/go /usr/local/bin/go
 export PATH=$PATH:$HOME/go/bin
